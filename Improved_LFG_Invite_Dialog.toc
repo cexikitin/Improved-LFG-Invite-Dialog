@@ -1,0 +1,5 @@
+## Interface: 70300
+## Title: Improved LFG Invite Dialog
+## Author: Cexikitin
+## Notes: Shows more information about the group you have been invited to join
+Improved_LFG_Invite_Dialog.lua
