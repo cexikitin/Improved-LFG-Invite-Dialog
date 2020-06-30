@@ -1,4 +1,4 @@
-## Interface: 70300
+## Interface: 80300
 ## Title: Improved LFG Invite Dialog
 ## Author: Cexikitin
 ## Notes: Shows more information about the group you have been invited to join
