@@ -13,7 +13,7 @@ LFGListInviteDialog_Show = function(self, resultID)
 
 orginalFunction(self, resultID)
 
-local id, activityID, name, comment, voiceChat, iLvl, honorLevel, age, numBNetFriends, numCharFriends, numGuildMates, isDelisted, leaderName, numMembers, isAutoAccept = C_LFGList.GetSearchResultInfo(resultID);
-self.GroupName:SetText(name .. "\n" .. leaderName .. "\n" .. numMembers .. " members");
+    local srcData = C_LFGList.GetSearchResultInfo(resultID);
+    self.GroupName:SetText(srcData.name .. "\n" .. srcData.leaderName .. "\n" .. srcData.numMembers .. " members");
 
 end
